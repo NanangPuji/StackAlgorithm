@@ -27,33 +27,10 @@ namespace StackAlgorithm
             static void Main(string[] args)
             {
             }
-            //add node
-            public void addnode()
-            {
-                int number;
-                string nm;
-
-                //deklarasi element
-                Console.WriteLine("\nMasukkan No.Mahasiswa : ");
-                number = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("\nMasukkan No.Mahasiswa : ");
-                nm = Console.ReadLine();
-
-                Node newnode = new Node();
-
-                //membuat penyimpanan
-                newnode rollNumnber;
-                newnode.nama = nm;
-
-                //if list empty
-                if (listempty())
-                {
-                    newnode.next = newnode;
-                    LAST = newnode;
+            
                 }
             }
         }
-    }
-}
+
 
  
