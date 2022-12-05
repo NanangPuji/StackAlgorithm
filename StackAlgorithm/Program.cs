@@ -8,16 +8,26 @@ using System.Xml.Linq;
 namespace StackAlgorithm
 {
     internal class Program
-    { 
-        class Node
     {
-        /*creates Node for the cicular nexted list*/
-        public int rollNumber;
-        public string nama;
-        public Node next;
-        }
-    static void Main(string[] args)
+        class Node
         {
+            /*creates Node for the cicular nexted list*/
+            public int rollNumber;
+            public string nama;
+            public Node next;
+        }
+
+        class CircularList
+        {
+            Node LAST;
+            public CircularList()
+            {
+                LAST = null;
+            }
+            static void Main(string[] args)
+            {
+            }
         }
     }
 }
+ 
